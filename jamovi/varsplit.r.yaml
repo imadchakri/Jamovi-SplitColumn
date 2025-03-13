@@ -1,0 +1,16 @@
+---
+name:  varsplit
+title: Split Column
+jrs:   '1.1'
+
+items:
+    - name:  text
+      title: Split Column
+      type:  Preformatted
+    
+    - name: factorScoresOV
+      title: New Columns
+      type: Output
+      initInRun: true
+
+...

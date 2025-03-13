@@ -1,0 +1,31 @@
+---
+name:  varsplit
+title: Split Column
+menuGroup: SplitColumn
+version: '1.0.0'
+jas: '1.2'
+
+options:
+    - name: data
+      type: Data
+      
+
+    - name: dep
+      title: Dependent Variable
+      type: Variable
+
+    - name: separator
+      title: Separator
+      type: List
+      options:
+        - title: Comma
+          name: comma
+        - title: Semicolon
+          name: semicolon
+      default: comma
+
+    - name: factorScoresOV
+      title: Display New Variables
+      type: Output
+   
+...

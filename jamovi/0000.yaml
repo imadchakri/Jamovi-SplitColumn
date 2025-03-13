@@ -1,0 +1,23 @@
+---
+title: Split Columns Module
+name: SplitColumn
+version: 1.0.0
+jms: '1.0'
+authors:
+  - IMAD CHAKRI
+maintainer: IMAD CHAKRI <i.chakri@uiz.ac.ma>
+date: '2025-03-13'
+type: R
+description: >-
+  A statistical tool for splitting combined data columns into separate columns
+  using various delimiters. Simplifies data preprocessing for analysis.
+analyses:
+  - title: Split Column
+    name: varsplit
+    ns: SplitColumn
+    menuGroup: SplitColumn
+    menuTitle: Split Column
+usesNative: true
+minApp: 1.0.8
+
+...
